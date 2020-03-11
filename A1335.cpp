@@ -128,7 +128,7 @@ const byte ang[]    = { B00001111, B11111111}; // Encoded angle reading (n * 360
 
 // Status Register read masks
 
-//                      STA(0x20)  STA+1(0x21)
+//                      STA(0x22)  STA+1(0x23)
 // Register Identifier Code
 const byte ris[]    = { B11110000, B00000000}; // Always 1000
 // Power-On Reset Flag
